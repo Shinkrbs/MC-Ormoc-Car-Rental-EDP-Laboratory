@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MC_Ormoc_Car_Rental_EDP_LAB_1.Vehicle">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAkAAgAAAAAAAAAQAAAAAAAAgAAAABAAA=</HashCode>
+      <FileName>Vehicle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="transmission" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MC_Ormoc_Car_Rental_EDP_LAB_1.Reservation">
+    <Position X="3.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAABAAABAAAAAQAAgCABAAAgAAAAAAAAAAACIAA=</HashCode>
+      <FileName>Reservation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="customer" />
+      <Property Name="DownPaymentTransaction" />
+      <Property Name="RentTransaction" />
+      <Property Name="car" />
+      <Property Name="status" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MC_Ormoc_Car_Rental_EDP_LAB_1.Admin">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAgAEEAAAAAAAAAAAAQgAAAACAAAACAAjAAwIMAAAA=</HashCode>
+      <FileName>Admin.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CurrentCustomer" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="CarList" />
+      <Field Name="CustomerList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="MC_Ormoc_Car_Rental_EDP_LAB_1.Car">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAAAAEABAAAAAAAACAAEAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Car.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="status" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MC_Ormoc_Car_Rental_EDP_LAB_1.Customer">
+    <Position X="7.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAEAAIAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MC_Ormoc_Car_Rental_EDP_LAB_1.Payment">
+    <Position X="4.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAACAAAAAAAAgAACkAAAAAAABACAAAAAAAAA=</HashCode>
+      <FileName>Payment.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Transaction" />
+      <Property Name="status" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MC_Ormoc_Car_Rental_EDP_LAB_1.Person">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACAAAAAAAAAAQAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MC_Ormoc_Car_Rental_EDP_LAB_1.Program">
+    <Position X="12.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAIAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MC_Ormoc_Car_Rental_EDP_LAB_1.Rent">
+    <Position X="7" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYABAABMCAAAAACAAAAAAAwAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="customer" />
+      <Property Name="car" />
+      <Property Name="status" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="MC_Ormoc_Car_Rental_EDP_LAB_1.Transmission">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transmission.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MC_Ormoc_Car_Rental_EDP_LAB_1.Car_Status">
+    <Position X="1" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAQAAACAAAAAAA=</HashCode>
+      <FileName>Car_Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MC_Ormoc_Car_Rental_EDP_LAB_1.Reservation_Status">
+    <Position X="1" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIAAAAAA=</HashCode>
+      <FileName>Reservation_Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MC_Ormoc_Car_Rental_EDP_LAB_1.Payment_Status">
+    <Position X="2.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Payment_Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MC_Ormoc_Car_Rental_EDP_LAB_1.Rent_Status">
+    <Position X="9.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAgAAQAAAAAAAAAAAAAAAgAAAAAgA=</HashCode>
+      <FileName>Rent_Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
